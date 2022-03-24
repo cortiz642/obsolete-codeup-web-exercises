@@ -18,3 +18,30 @@
 //     }
 // }
 // fizzBuzz();
+
+// Imagine the supplied array is like a pack of cards. Write a function to
+// shuffle an array in to a completely new and entirely random order, much like
+// shuffling a pack of cards.
+//     example input: [2,4,6,8]
+// expected output: [4,2,8,6];
+
+// function to shuffle an array in a new random order
+
+var cards = [2, 4, 6, 8];
+shuffle(cards);
+function shuffle(cards) {
+    cards.sort(() => Math.random());
+    console.log(cards);
+}
+
+// let arr = [1, 2, 3];
+// shuffle(arr);
+// alert(arr);
+// var random = cards[Math.floor(Math.random() * cards.length)];
+// console.log(random);
+
+
+// cntrl + command + spacebar = emojis
+
+
+
