@@ -34,7 +34,7 @@
     // // console.log(listPlanets);
     // // console.log(listPlanet);
     //
-    var listPlanets = "new</br>one</br>";
-console.log(listPlanets)
+//     var listPlanets = "new</br>one</br>";
+// console.log(listPlanets)
 
 })();
