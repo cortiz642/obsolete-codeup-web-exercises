@@ -27,11 +27,11 @@
 
 // function to shuffle an array in a new random order
 
-var cards = [2, 4, 6, 8];
-shuffle(cards);
-function shuffle(cards) {
-    cards.sort(() => Math.random());
-    console.log(cards);
+// var cards = [2, 4, 6, 8];
+// shuffle(cards);
+// function shuffle(cards) {
+//     cards.sort(() => Math.random());
+//     console.log(cards);
 }
 
 // let arr = [1, 2, 3];
@@ -43,5 +43,20 @@ function shuffle(cards) {
 
 // cntrl + command + spacebar = emojis
 
+//////// MORNING WARMUP ///////////////
+//1. Return a string in reverse
+// ex. reverseString(‘hello’) === ‘olleh’
+// let reverseString = (str) => {
+//   return //Something
+// };
+// 2. Return true if palindrome and false if not
+// ex. isPalindrome(‘racecar’) === ‘true’, isPalindrome(‘hello’) == false
+// let isPalindrome = (str) => {
+// };
+// function reverseString(str){
+//     return str;
+//
+// }
+// reverseString("hello");
 
-
+var reverseString = input.split("").reverse().join("");
