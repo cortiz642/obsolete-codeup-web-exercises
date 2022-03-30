@@ -41,5 +41,5 @@
     console.log("Raw circle information");
     circle.logInfo(false);
     console.log("Circle information rounded to the nearest whole number");
-    circle.logInfo(true else);
+    circle.logInfo(true);
 })();
