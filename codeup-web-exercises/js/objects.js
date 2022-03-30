@@ -11,25 +11,29 @@
      *  > console.log(person.firstName) // "Rick"
      *  > console.log(person.lastName) // "Sanchez"
      */
-    var personObject = {
-        firstName: 'Chris',
-        lastName: 'Ortiz',
+    // var personObject = {
+    //     firstName: 'Chris',
+    //     lastName: 'Ortiz',
+    // }
+    // console.log(person.firstName);
+    // console.log(person.lastName);
 
-
-    // /**
-    //  * TODO:
-    //  * Add a sayHello method to the person object that returns a greeting using
-    //  * the firstName and lastName properties.
-    //  * console.log the returned message to check your work
-    //  *
-    //  * Example
-    //  * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
-    //  */
-    sayHello: function () {
-        return personObject.firstName.lastName;
-    }
-}
-    console.log(personObject.sayHello());
+    //
+    //     // /**
+    //     //  * TODO:
+    //     //  * Add a sayHello method to the person object that returns a greeting using
+    //     //  * the firstName and lastName properties.
+    //     //  * console.log the returned message to check your work
+    //     //  *
+    //     //  * Example
+    //     //  * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
+    //     //  */
+    //     sayHello: function () {
+    //         return personObject.firstName.lastName;
+    //     }
+    // }
+    //
+    // console.log(personObject.sayHello());
     /** TODO:
      * HEB has an offer for the shoppers that buy products amounting to
      * more than $200. If a shopper spends more than $200, they get a 12%
@@ -43,13 +47,43 @@
      * represents one shopper. Use a foreach loop to iterate through the array,
      * and console.log the relevant messages for each person
      */
+        //write a conditional that logs "console.log" to the browser
+        //log how much Ryan, Cameron, and George need to pay
+        //personname (amount before discount), then (discount %),
+        // (amount after discount)
 
     // var shoppers = [
     //     {name: 'Cameron', amount: 180},
     //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
+    //     {name: 'George', amount: 320},
+    //
+    // ]
+    // name.forEach(function(values) {
+    //     console.log(values);
+    //
+    // })
 
+
+
+    // Object.values(shoppers).forEach((val)=> {
+    // if(val.amount >= 200){
+    //     var discount = .12 * val.amount;
+    //     console.log(val.name + " before discount: $" + val.amount + " amount off $"
+    //         + discount + " he would have to pay " + val.amount - discount);
+    // }else if (val.amount < 200){
+    //     console.log(val.name + " doesn't get a discount, you owe $" + val.amount);
+    //
+    // }
+    //
+    // })
+
+
+
+    // var shopperObject = {
+    //     Ryan: 250,
+    //     Cameron: 180,
+    //     George: 320,
+    //     }
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
@@ -62,6 +96,44 @@
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
+    var books = [
+
+        { title: 'Extreme Ownership',
+          author: {firstName: 'Jocko',
+                    lastName: 'Willink'}},
+
+        {   title: '75 HARD',
+            author: {firstName: 'Andy',
+                     lastName: 'Frisella'}},
+        {
+            title: 'War Of The Gods',
+            author: {firstName: 'Erich',
+                     lastName: 'Von Daniken'}},
+        {
+            title: 'Make Your Bed',
+            author: {firstName: 'Admiral William',
+                     lastName: 'H. Mcraven'}},
+        {
+            title: 'Weird Darkness',
+            author: {firstName: 'Darren' ,
+                     lastName: 'Marlar'}},
+]
+
+    console.log(books[3].title)
+    console.log(books[3].author.firstName)
+    console.log(books[3].author.lastName)
+
+    // for (var i = 0; i < library.length; i++)
+    // {
+    //     var book = "'" + library[i].title + "'" + ' by ' + library[i].author + ".";
+    //     if (library[i].readingStatus) {
+    //         console.log("Already read " + book);
+    //     } else
+    //     {
+    //         console.log("You still need to read " + book);
+    //     }
+    // }
+
 
     /**
      * TODO:

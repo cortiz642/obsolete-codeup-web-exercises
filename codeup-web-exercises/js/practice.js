@@ -32,7 +32,7 @@
 // function shuffle(cards) {
 //     cards.sort(() => Math.random());
 //     console.log(cards);
-}
+// }
 
 // let arr = [1, 2, 3];
 // shuffle(arr);
@@ -59,4 +59,14 @@
 // }
 // reverseString("hello");
 
-var reverseString = input.split("").reverse().join("");
+// var reverseString = input.split("").reverse().join("");
+
+var arr = [3,'g','s',5,'j',8,2,'d',6,'h',9,'l',5,'s',2,3];
+var numbersOnly = (val)=> {
+    if(typeof(val) === 'number'){
+        return val;
+    }
+}
+var number = arr.filter(numbersOnly);
+console.log(number);
+
