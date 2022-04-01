@@ -61,12 +61,42 @@
 
 // var reverseString = input.split("").reverse().join("");
 
-var arr = [3,'g','s',5,'j',8,2,'d',6,'h',9,'l',5,'s',2,3];
-var numbersOnly = (val)=> {
-    if(typeof(val) === 'number'){
-        return val;
+// var arr = [3,'g','s',5,'j',8,2,'d',6,'h',9,'l',5,'s',2,3];
+// var numbersOnly = (val)=> {
+//     if(typeof(val) === 'number'){
+//         return val;
+//     }
+// }
+// var number = arr.filter(numbersOnly);
+// console.log(number);
+
+//////////MORNING WARMUP 4/1/2022 //////////////////
+//Write a function that returns the reading status of each of following books
+var library = [
+    {
+        author: 'Bill Gates',
+        title: 'The Road Ahead',
+        readingStatus: true
+    },
+    {
+        author: 'Steve Jobs',
+        title: 'Walter Isaacson',
+        readingStatus: true
+    },
+    {
+        author: 'Suzanne Collins',
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        readingStatus: true,
+
+    }]
+        for (var i = 0; i < library.length; i++)
+{
+    var book = library[i].title + ' by ' + library[i].author + ".";
+    if (library[i].readingStatus) {
+        console.log("Already read " + book);
+    } else
+    {
+        console.log("You still need to read " + book);
     }
 }
-var number = arr.filter(numbersOnly);
-console.log(number);
 
