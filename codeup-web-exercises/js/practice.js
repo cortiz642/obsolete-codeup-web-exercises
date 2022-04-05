@@ -72,31 +72,84 @@
 
 //////////MORNING WARMUP 4/1/2022 //////////////////
 //Write a function that returns the reading status of each of following books
-var library = [
-    {
-        author: 'Bill Gates',
-        title: 'The Road Ahead',
-        readingStatus: true
-    },
-    {
-        author: 'Steve Jobs',
-        title: 'Walter Isaacson',
-        readingStatus: true
-    },
-    {
-        author: 'Suzanne Collins',
-        title: 'Mockingjay: The Final Book of The Hunger Games',
-        readingStatus: true,
+// var library = [
+//     {
+//         author: 'Bill Gates',
+//         title: 'The Road Ahead',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Steve Jobs',
+//         title: 'Walter Isaacson',
+//         readingStatus: true
+//     },
+//     {
+//         author: 'Suzanne Collins',
+//         title: 'Mockingjay: The Final Book of The Hunger Games',
+//         readingStatus: true,
+//
+//     }]
+//         for (var i = 0; i < library.length; i++)
+// {
+//     var book = library[i].title + ' by ' + library[i].author + ".";
+//     if (library[i].readingStatus) {
+//         console.log("Already read " + book);
+//     } else
+//     {
+//         console.log("You still need to read " + book);
+//     }
+// }
 
-    }]
-        for (var i = 0; i < library.length; i++)
-{
-    var book = library[i].title + ' by ' + library[i].author + ".";
-    if (library[i].readingStatus) {
-        console.log("Already read " + book);
-    } else
-    {
-        console.log("You still need to read " + book);
-    }
-}
+        //////MORNING WARMUP 4/4/2022 ///////////////////
+// Write a JS code to return an array of only the  Even numbers from the  given array
+// example input: [12,2,3,4,5,6,7,8,9]
+// expected output: [2,2,4,6,8]
+
+// function evenNum(array) {
+//     var input = [12, 2, 3, 4, 5, 6, 7, 8, 9];
+//     for(var i = 0; i < array.length; i++){
+//         if(array[i] % 2 === 0){
+//             console.log(input);
+//         }
+//     }
+//     return input;
+
+
+    /////////// MORNING WARMUP 4/5/2022 //////////////////////
+
+//     example input: [1,2,3,4,5];
+//     expected output: 15
+//     some possible test cases to think about:
+//         function should be called ‘sumArr’
+// function should return a number
+//     function should accept an array
+//     function should return “sum not available” if array is empty
+//     function should handle non-numbers
+
+// }
+
+//// Primary Answer //////
+// var  sumArr = [1, 2, 3, 4, 5];
+// var sum = 0;
+//
+// for(var i = 0; i <sumArr.length; i++){
+//     sum += sumArr[i];
+// }
+// console.log(sum);
+//
+// //// Secondary Answer ///////
+// var passedNumbers = [1,'2',3,4,5];
+// var result = 0;
+// function sumArr(input) {
+//     input = passedNumbers.map(Number);
+//     if (input === "") return "sum not available";
+//     for (var i = 0; i < passedNumbers.length; i++) {
+//         result += input[i];
+//
+//     } return result;
+// }
+// sumArr(passedNumbers);
+
+
+
 
