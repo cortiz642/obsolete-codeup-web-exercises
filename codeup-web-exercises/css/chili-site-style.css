@@ -55,6 +55,7 @@ li.dropdown {
     display: block;
 }
 .text {
+
     margin-top: 0;
     text-align: center;
     font-style: italic;
@@ -81,8 +82,16 @@ li.dropdown {
     1px 25px 35px rgba(16, 16, 16, 0.2),
     1px 30px 60px rgba(16, 16, 16, 0.4);
 }
-section {
-    background-color: #aaa9a9;
+.one {
+
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
 }
 
 /*.left-dots {*/
