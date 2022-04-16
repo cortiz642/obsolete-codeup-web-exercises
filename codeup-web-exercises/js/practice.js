@@ -209,12 +209,12 @@
 //
 // }
 // 6. Write a function called first(input) that returns the first character in the provided string.
-function first(input){
-    // var string = "somebody";
-    console.log(input.charAt(0));
-
-}
-first("something");
+// function first(input){
+//     // var string = "somebody";
+//     console.log(input.charAt(0));
+//
+// }
+// first("something");
 // var firstChar = first.charAt(0);
 
 // 7* Create a function that takes in two string inputs.
@@ -225,9 +225,9 @@ first("something");
 // -- If the second string input is not present in the first, return the first string as entered in the
 // function.
 //
-function input(str1, str2){
-
-}
+// function input(str1, str2){
+//
+// }
 
 
 
@@ -256,6 +256,38 @@ function input(str1, str2){
 // 13. Write a function named firstTenFibonacciNumbers() that returns an array of the first ten fibonacci numbers
 //
 
+//////////////////////  MORNING WARMUP 4/13/2022    ////////////////////////////////
+
+// Write a function that takes two arrays as arguments
+// Merge both arrays and remove duplicate values
+// Sort the merge result in ascending order
+// Return the resulting array
+//
+// example input: [1, 2, 3], [3, 4, 5]
+// expected output:
+//     [ 1, 2, 3, 4, 5 ]
+
+// function merge_array(arr1, arr2) {
+    // var result_array = [];
+    // var arr = arr1.concat(arr2);
+    // var len = arr.length;
+    // var assoc = {};
+    //
+    // while(len--){
+    //     var item = arr[len];
+    //
+    //     if(!assoc[item]){
+    //         result_array.unshift(item);
+    //         assoc[item] = true;
+    //     }
+    // }
+    // return result_array;
+
+    var arr1 = [1, 2, 3];
+    var arr2 = [3, 4, 5];
+    var arr3 = arr1.concat(arr2)
+    var arr4 = arr3.filter((item,pos)=>arr3.indexOf(item) === pos);
+    console.log(arr4);
 
 
 
