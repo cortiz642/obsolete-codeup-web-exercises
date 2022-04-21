@@ -1,8 +1,8 @@
-//TODO: Fizzbuzz Activity
-//Print numbers 1-100
-//if # is divisible by 3 use Fizz
-//if # is divisible by 5 use Buzz
-//if # is divisible by both 3 and 5 use FizzBuzz
+// TODO: Fizzbuzz Activity
+// Print numbers 1-100
+// if # is divisible by 3 use Fizz
+// if # is divisible by 5 use Buzz
+// if # is divisible by both 3 and 5 use FizzBuzz
 
 // function fizzBuzz(){
 //     for (var i = 1; i <= 100; i++){
@@ -283,11 +283,75 @@
     // }
     // return result_array;
 
-    var arr1 = [1, 2, 3];
-    var arr2 = [3, 4, 5];
-    var arr3 = arr1.concat(arr2)
-    var arr4 = arr3.filter((item,pos)=>arr3.indexOf(item) === pos);
-    console.log(arr4);
+    // var arr1 = [1, 2, 3];
+    // var arr2 = [3, 4, 5];
+    // var arr3 = arr1.concat(arr2)
+    // var arr4 = arr3.filter((item,pos)=>arr3.indexOf(item) === pos);
+    // console.log(arr4);
+
+/////////////////   MORNING WARMUP 4/18/2022    /////////////
+//
+// Rewrite the following using a for-loop:
+// var i = 20;
+// while (i >= 0) {
+//     console.log(i);
+//     i--;
+// }
+// 2. Write a function that takes an object (a) as argument and returns an array with all object keys
+// example input: {a:1,b:2,c:3}
+// expected output: ['a','b','c']
+// ------------------------
+//     example input:{j:9,i:2,x:3,z:4}
+// expected output: ['j','i','x','z']
+
+
+/////////////////   MORNING WARMUP 4/19/2022    /////////////
+
+// (hint hint hint: learn how to use a modulus)
+// Write a function that iterates through numbers 1 and 15 and returns the numbers that are divisible by 3 (hint hint hint: learn how to use a modulus)
+// 2. Extra Challenging - Set likely won’t be covered but it’s a useful tool in JS
+// Write a function that takes a Set and an array as arguments. If not already existing, add each element in the array to the Set. Return the modified Set
+//
+// example input: new Set([1, 2, 3]), [4, 5, 6]
+// expected output: new Set([1, 2, 3, 4, 5, 6 ])
+// -------------------------
+//     example input:new Set([1, 2, 3]), [2, 3]
+// expected output: new Set([1, 2, 3])
+// -------------------------
+
+// var input=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
+//
+//     var i = input;
+//     for (var i = 1; i <= 15; i++) {
+//         if (i % 3 === 0) {
+//             return i % 3;
+//         }
+//     }
+
+
+// const myset1 = new Set([1,2,3,]); [4,5,6]
+// {
+//     myset1.add(1)
+//     myset1.add(2)
+//     myset1.add(3)
+//     myset1.add(4)
+//     myset1.add(5)
+//     myset1.add(6)
+//
+// }
+// console.log(myset1);
+
+// List the primitive data types in javascript
+// 2. swap keys for values
+// // Write a function that takes an object as argument
+// // Swap the Javascript object's key with its values and return the resulting object
+//
+//     example input: {z:'a',y:'b',x:'c',w:'d'}
+// expected output: {a:'z',b:'y',c:'x',d:'w'}
+// -------------------------
+//     example input:{2:'a',4:'b',6:'c',8:'d'}
+// expected output: {a:'2',b:'4',c:'6',d:'8'}
+// -------------------------
 
 
 
