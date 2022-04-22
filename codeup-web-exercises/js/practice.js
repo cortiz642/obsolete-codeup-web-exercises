@@ -353,9 +353,77 @@
 // expected output: {a:'2',b:'4',c:'6',d:'8'}
 // -------------------------
 
+//////////      DAILY WARMUP    4/21/2022       //////////////////
+
+// Write a function that takes an array of objects and a string as arguments
+// Add a property with key 'continent' and value equal to the string to each of the objects
+// Return the new array of objects
+// Tipp: try not to mutate the original array
+
+// example input: [{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia'
+// expected output: [{ city: 'Tokyo', country: 'Japan', continent: 'Asia' }, { city: 'Bangkok', country:
+//         'Thailand', continent: 'Asia' }]
+
+var input= [
+    {
+            city: 'Tokyo',
+            country: 'Japan',
+    },
+    {
+        city: 'Bangkok',
+        country: 'Thailand',
+
+
+
+    }
+
+    ];
+
+function verify(obj, str){
+    console.log(obj, str)
+
+    for(let i = 0; i < obj.length; i++){
+        console.log(obj[i])
+        obj[i].continent = str;
+        console.log(obj[i])
+    }
+}
+
+verify([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia')
+// input.forEach(function (element:{continent:'Asia'}) {
+//     element.Active = "false";
+// });
+
+// input.forEach(function(continent))
+// input[0]['continent'] ='Asia'
+// input[1]['continent'] ='Asia'
+// console.log(input)
 
 
 
 
 
+// 2. How can you add “strawberry” to the beginning, middle, and end of the following array?
+// var fruits = ["mango", "blueberries", "oranges", "banana", "papaya", "kiwi"];
 
+
+//////////////      MORNING WARMUP      4/22/2022       //////////////////
+
+// Write a function that takes an array (a) as argument
+// Extract the first 3 elements of a
+// Return the resulting array
+
+// function arr(a){
+//     var removed = a.splice(2);
+//     return removed
+// }
+// console.log(arr(["favorite", "movie", "watch"]));
+
+// 2.Write an object that describes which brands own which cereals (you can be creative here) . After the object has been declared …
+// A) add properties and values to the existing object
+// B) re-assign 2 properties’ values
+
+// var obj: {
+//
+//
+// }
