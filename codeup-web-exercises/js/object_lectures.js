@@ -127,4 +127,5 @@ var chrisObject = { //curly brackets object literal
         return chrisObject.Age - 10;
     }
 }
-console.log(chrisObject.youngerMe());
+// console.log(chrisObject.youngerMe());
+console.log(chrisObject)
