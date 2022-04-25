@@ -364,32 +364,32 @@
 // expected output: [{ city: 'Tokyo', country: 'Japan', continent: 'Asia' }, { city: 'Bangkok', country:
 //         'Thailand', continent: 'Asia' }]
 
-var input= [
-    {
-            city: 'Tokyo',
-            country: 'Japan',
-    },
-    {
-        city: 'Bangkok',
-        country: 'Thailand',
-
-
-
-    }
-
-    ];
-
-function verify(obj, str){
-    console.log(obj, str)
-
-    for(let i = 0; i < obj.length; i++){
-        console.log(obj[i])
-        obj[i].continent = str;
-        console.log(obj[i])
-    }
-}
-
-verify([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia')
+// var input= [
+//     {
+//             city: 'Tokyo',
+//             country: 'Japan',
+//     },
+//     {
+//         city: 'Bangkok',
+//         country: 'Thailand',
+//
+//
+//
+//     }
+//
+//     ];
+//
+// function verify(obj, str){
+//     console.log(obj, str)
+//
+//     for(let i = 0; i < obj.length; i++){
+//         console.log(obj[i])
+//         obj[i].continent = str;
+//         console.log(obj[i])
+//     }
+// }
+//
+// verify([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia')
 // input.forEach(function (element:{continent:'Asia'}) {
 //     element.Active = "false";
 // });
@@ -427,3 +427,16 @@ verify([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thaila
 //
 //
 // }
+
+// Write a function that takes an array of numbers as argument and returns the number of negative values in the array
+// example Input: [1,-2,2,-4]
+// expected output: 2
+
+var arr = [1, -2, 2, -4];{
+
+    for(var i = 0; i <= arr.length; i++){
+        console.log(arr)
+
+    }
+
+}
