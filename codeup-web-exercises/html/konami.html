@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konami Code</title>
+</head>
+<body>
+<h1>Konami Code</h1>
+<form>
+    <fieldset>
+        <input id="target" type="text" value="Hello there">
+    </fieldset>
+</form>
+<div id="other">
+    Trigger the handler
+</div>
+<script src="../js/jquery_exercise.js"></script>
+<script>
+    "use strict";
+
+    $(document).keyup(function(event){
+        console.log(event.keyCode);
+    });
+</script>
+</body>
+</html>

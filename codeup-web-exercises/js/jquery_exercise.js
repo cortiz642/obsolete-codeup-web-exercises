@@ -30,9 +30,9 @@ $('#frame').click(function() {
     $(this).css('background-color', 'silver');
 });
 
-$('p').dblclick(function(e) {
-    $(this).css('font-size', '50px');
-});
+// $('p').dblclick(function(e) {
+//     $(this).css('font-size', '50px');
+// });
 
 $('li').hover(
     function() {
@@ -42,3 +42,20 @@ $('li').hover(
         $(this).css('background-color', 'black');
     }
 );
+
+// $( "#frame" ).mousemove(function(event) {
+//     var msg = "Handler for .mousemove() called at ";
+//     msg += event.pageX + ", " + event.pageY;
+//     $( "#list" ).append( "<div>" + msg + "</div>" );
+// });
+// $('#textfield').keydown(function() {
+//     alert('A key was pushed down!');
+// });
+
+$('konami').keyup(function(event){
+    console.log(event.keyCode);
+});
+
+$( "#target" ).keypress(function() {
+    console.log( "Handler for .keypress() called." );
+});
