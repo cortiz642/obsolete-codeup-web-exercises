@@ -5,5 +5,6 @@
 // $('.list').css('background-color', 'yellow');
 // $('.codeup').css('border', '1px solid red');
 
-$('li').css('font-size', '20px');
-$('h1,p,li').css('border', '1px solid red');
+$('li').css({'border':'1px solid red', 'text-align':'center', 'font-size':'40px'})
+// $('h1,p,li').css('border', '1px solid red');
+// $('h1,p,li').css('display', 'flex');
