@@ -54,6 +54,15 @@ img{
     max-width: 100%;
     padding: 10px;
 }
+.mini-circle{
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    color: black;
+    font-size: 10px ;
+}
 /*.mac{*/
 /*width: 48%;*/
 /*border-style: solid;*/
