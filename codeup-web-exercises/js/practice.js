@@ -447,13 +447,13 @@
 // // It should return the number of days that lies between those dates
 // example input: new Date('2020-06-11'), new Date('2020-06-01')
 // expected output: 10
-var date1 = new Date('2020-06-01');
-var date2 = new Date('2020-06-11');
-var Difference_In_Time = date2.getTime() - date1.getTime();
-var Difference_In_Days = Difference_In_Time/ (1000 * 3600 * 24);
-document.write(date1 + date2 + Difference_In_Days);
-console.log(date1 + date2 + Difference_In_Days)
-
+// var date1 = new Date('2020-06-01');
+// var date2 = new Date('2020-06-11');
+// var Difference_In_Time = date2.getTime() - date1.getTime();
+// var Difference_In_Days = Difference_In_Time/ (1000 * 3600 * 24);
+// document.write(date1 + date2 + Difference_In_Days);
+// console.log(date1 + date2 + Difference_In_Days)
+//
 
 // 2. // Write a function that takes an array (a) and a number (b) as arguments
 // // Sum up all array elements with a value greater than b
@@ -466,4 +466,22 @@ console.log(date1 + date2 + Difference_In_Days)
 // var num = (b);
 // var input = [1, 2, 3, 4, 5, 6,7], 2
 
+/////////       MORNING WARMUP 04/28/2022       //////////////
+
+// Write a function that takes an array (a) and a value (n) as arguments
+// Save every nth element in a new array
+// Return the new array
+
+// example input: [1,2,3,4,5,6,7,8,9,10],3
+// expected output: [3,6,9]
+
+function arr(a,b) {
+    // var input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3
+    const result = [];
+    for(let i = 2; i <a.length; i += b){
+        result.push(a[i]);
+    }
+    return result;
+}
+console.log(arr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3))
 
